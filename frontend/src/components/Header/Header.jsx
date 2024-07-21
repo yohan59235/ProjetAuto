@@ -10,6 +10,22 @@ import G from "../Marque/G/G";
 import H from "../Marque/H/H";
 import I from "../Marque/I/I";
 import J from "../Marque/J/J";
+import K from "../Marque/K/K";
+import L from "../Marque/L/L";
+import M from "../Marque/M/M";
+import N from "../Marque/N/N";
+import O from "../Marque/O/O";
+import P from "../Marque/P/P";
+import Q from "../Marque/Q/Q";
+import R from "../Marque/R/R";
+import S from "../Marque/S/S";
+import T from "../Marque/T/T";
+import U from "../Marque/U/U";
+import V from "../Marque/V/V";
+import W from "../Marque/W/W";
+import X from "../Marque/X/X";
+import Z from "../Marque/Z/Z";
+import Chiffres from "../Marque/Chiffres/Chiffres";
 
 import "./Header.css";
 
@@ -30,6 +46,7 @@ function Header() {
       />
       {showLinks && (
         <div>
+          <Chiffres />
           <A />
           <B />
           <C />
@@ -40,6 +57,21 @@ function Header() {
           <H />
           <I />
           <J />
+          <K />
+          <L />
+          <M />
+          <N />
+          <O />
+          <P />
+          <Q />
+          <R />
+          <S />
+          <T />
+          <U />
+          <V />
+          <W />
+          <X />
+          <Z />
         </div>
       )}
     </div>

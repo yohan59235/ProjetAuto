@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../A/A.css";
+
 function B() {
   return (
     <div>

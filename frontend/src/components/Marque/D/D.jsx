@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./D.css";
+import "../A/A.css";
 
 function D() {
   return (
