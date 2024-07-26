@@ -17,6 +17,7 @@ function C() {
         <li>Chevrolet</li>
         <li>Chrysler</li>
         <li>Citroën</li>
+        <li>Cizeta</li>
         <li>Clenet</li>
         <li>Connaught</li>
         <li>Coste</li>
