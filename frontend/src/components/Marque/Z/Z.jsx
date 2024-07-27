@@ -4,7 +4,7 @@ import "../A/A.css";
 
 function Z() {
   return (
-    <div>
+    <div className="Marques_List">
       <h1>- Z -</h1>
       <ul>
         <li>Zagato</li>

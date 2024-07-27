@@ -4,7 +4,7 @@ import "../A/A.css";
 
 function N() {
   return (
-    <div>
+    <div className="Marques_List">
       <h1>- N -</h1>
       <ul>
         <li>Nash</li>

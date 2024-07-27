@@ -4,7 +4,7 @@ import "../A/A.css";
 
 function Q() {
   return (
-    <div>
+    <div className="Marques_List">
       <h1>- Q -</h1>
       <ul>
         <li>Qoros</li>

@@ -4,7 +4,7 @@ import "../A/A.css";
 
 function G() {
   return (
-    <div>
+    <div className="Marques_List">
       <h1>- G -</h1>
       <ul>
         <li>Gac Gonow</li>

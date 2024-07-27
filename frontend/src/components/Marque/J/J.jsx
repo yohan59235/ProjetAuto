@@ -4,7 +4,7 @@ import "../A/A.css";
 
 function J() {
   return (
-    <div>
+    <div className="Marques_List">
       <h1>- J -</h1>
       <ul>
         <li>Jaguar</li>

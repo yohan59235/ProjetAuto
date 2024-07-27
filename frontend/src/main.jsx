@@ -6,11 +6,15 @@ import { UserProvider } from "./services/UserContext";
 
 import App from "./App";
 import Home from "./pages/Home/Home";
+import Abarth from "./pages/Abarth/Abarth";
 
 const router = createBrowserRouter([
   {
     element: <App />,
-    children: [{ path: "/", element: <Home /> }],
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/Abarth", element: <Abarth /> },
+    ],
   },
 ]);
 

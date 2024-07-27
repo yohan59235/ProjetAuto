@@ -2,12 +2,22 @@ div {
     width: 100%;
 }
 
-h1 {
+.Marques_List > h1 {
     display: flex;
     justify-content: center;
     padding: 1rem;
 }
 
 ul > li {
-    padding: 0rem 0rem 0.5rem 1rem;
+    padding: 0rem 0rem 1rem 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul > li > a {
+    text-decoration: none;
+}
+
+ul > li > a:hover {
+    color: red;
 }

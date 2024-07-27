@@ -1,0 +1,31 @@
+.Logo_Abarth {
+    display: flex;
+    justify-content: center;
+}
+
+.Logo_Abarth > img {
+    width: 5rem;
+    margin: 3rem;
+}
+
+.Abarth_History {
+    height: 25rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(9, 255, 0) black;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.Abarth_History::-webkit-scrollbar-thumb {
+    color: red;
+}
+
+.Abarth_History > h1,.Abarth_History > h2 {
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.Abarth_History > div > p {
+    text-align: justify;
+    padding: 1rem;
+}

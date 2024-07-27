@@ -4,7 +4,7 @@ import "../A/A.css";
 
 function V() {
   return (
-    <div>
+    <div className="Marques_List">
       <h1>- V -</h1>
       <ul>
         <li>Vaillante</li>

@@ -4,7 +4,7 @@ import "../A/A.css";
 
 function U() {
   return (
-    <div>
+    <div className="Marques_List">
       <h1>- U -</h1>
       <ul>
         <li>Ultima</li>
