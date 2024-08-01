@@ -11,40 +11,96 @@ function Abarth() {
         <li>
           <Link to="/Abarth">Abarth</Link>
         </li>
-
         <li>
-          <Link to="A.C">A.C</Link>
+          <Link to="/AC">A.C</Link>
         </li>
-
-        <li>Acrea</li>
-        <li>Acura</li>
-        <li>Ad Tramontana</li>
-        <li>Adler</li>
-        <li>Aiways</li>
-        <li>Al Helling</li>
-        <li>Aleko</li>
-        <li>Alfa Romeo</li>
-        <li>Alpina</li>
-        <li>Alpine</li>
-        <li>Alvis</li>
-        <li>Am General</li>
-        <li>A.M.C</li>
-        <li>Amphicar</li>
-        <li>Apal</li>
-        <li>Ariel</li>
-        <li>Armstrong Siddeley</li>
-        <li>Aro</li>
-        <li>Artega</li>
-        <li>Ascari</li>
-        <li>Aspark</li>
-        <li>Aston Martin</li>
-        <li>Auburn</li>
-        <li>Audi</li>
-        <li>Austin</li>
-        <li>Austin Healey</li>
-        <li>Auto Union</li>
-        <li>Autobianchi</li>
-        <li>Auverland</li>
+        <li>
+          <Link to="/Acrea">Acrea</Link>
+        </li>
+        <li>
+          <Link to="/Acura">Acura</Link>
+        </li>
+        <li>
+          <Link to="/Ad Tramontana">Ad Tramontana</Link>
+        </li>
+        <li>
+          <Link to="/Adler">Adler</Link>
+        </li>
+        <li>
+          <Link to="/Aiways">Aiways</Link>
+        </li>
+        <li>
+          <Link to="/AlHelling">Al Helling</Link>
+        </li>
+        <li>
+          <Link to="/Aleko">Aleko</Link>
+        </li>
+        <li>
+          <Link to="/AlfaRomeo">Alfa Romeo</Link>
+        </li>
+        <li>
+          <Link to="/Alpina">Alpina</Link>
+        </li>
+        <li>
+          <Link to="/Alpine">Alpine</Link>
+        </li>
+        <li>
+          <Link to="/Alvis">Alvis</Link>
+        </li>
+        <li>
+          <Link to="/Am General">Am General</Link>
+        </li>
+        <li>
+          <Link to="/AMC">A.M.C</Link>
+        </li>
+        <li>
+          <Link to="/Amphicar">Amphicar</Link>
+        </li>
+        <li>
+          <Link to="/Apal">Apal</Link>
+        </li>
+        <li>
+          <Link to="/Ariel">Ariel</Link>
+        </li>
+        <li>
+          <Link to="/Armstrong">Armstrong Siddeley</Link>
+        </li>
+        <li>
+          <Link to="/Aro">Aro</Link>
+        </li>
+        <li>
+          <Link to="/Artega">Artega</Link>
+        </li>
+        <li>
+          <Link to="/Ascari">Ascari</Link>
+        </li>
+        <li>
+          <Link to="/Aspark">Aspark</Link>
+        </li>
+        <li>
+          <Link to="/AstonMartin">Aston Martin</Link>
+        </li>
+        <li>
+          <Link to="/Auburn">Auburn</Link>
+        </li>
+        <li>
+          <Link to="/Audi">Audi</Link>
+        </li>
+        <li>
+          <Link to="/Austin">Austin</Link>
+        </li>
+        <li>
+          <Link to="/AustinHealey">Austin Healey</Link>
+        </li>
+        <li>
+          <Link to="/AutoUnion">Auto Union</Link>
+        </li>
+        <li>
+          <Link to="/Autobianchi">Autobianchi</Link>
+        </li>
+        <li>
+          <Link to="/Auverland">Auverland</Link>
+        </li>
       </ul>
     </div>
   );
