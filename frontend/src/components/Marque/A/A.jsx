@@ -48,10 +48,10 @@ function Abarth() {
           <Link to="/Alvis">Alvis</Link>
         </li>
         <li>
-          <Link to="/Am General">Am General</Link>
+          <Link to="/AMC">A.M.C</Link>
         </li>
         <li>
-          <Link to="/AMC">A.M.C</Link>
+          <Link to="/AmGeneral">Am General</Link>
         </li>
         <li>
           <Link to="/Amphicar">Amphicar</Link>
@@ -93,10 +93,10 @@ function Abarth() {
           <Link to="/AustinHealey">Austin Healey</Link>
         </li>
         <li>
-          <Link to="/AutoUnion">Auto Union</Link>
+          <Link to="/Autobianchi">Autobianchi</Link>
         </li>
         <li>
-          <Link to="/Autobianchi">Autobianchi</Link>
+          <Link to="/AutoUnion">Auto Union</Link>
         </li>
         <li>
           <Link to="/Auverland">Auverland</Link>
