@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import A from "../Marque/A/A";
 import B from "../Marque/B/B";
@@ -39,41 +40,54 @@ function Header() {
   };
 
   return (
-    <div className="Burger_img" onClick={handleClickBurger} aria-hidden="true">
-      <img
-        src={`${URL}/public/assets/images/menu-burger.png`}
-        alt="menu burger"
-      />
-      {showLinks && (
-        <div>
-          <Chiffres />
-          <A />
-          <B />
-          <C />
-          <D />
-          <E />
-          <F />
-          <G />
-          <H />
-          <I />
-          <J />
-          <K />
-          <L />
-          <M />
-          <N />
-          <O />
-          <P />
-          <Q />
-          <R />
-          <S />
-          <T />
-          <U />
-          <V />
-          <W />
-          <X />
-          <Z />
-        </div>
-      )}
+    <div className="Header">
+      <div
+        className="Burger_img"
+        onClick={handleClickBurger}
+        aria-hidden="true"
+      >
+        <img
+          src={`${URL}/public/assets/images/menu-burger.png`}
+          alt="menu burger"
+        />
+        {showLinks && (
+          <div>
+            <Chiffres />
+            <A />
+            <B />
+            <C />
+            <D />
+            <E />
+            <F />
+            <G />
+            <H />
+            <I />
+            <J />
+            <K />
+            <L />
+            <M />
+            <N />
+            <O />
+            <P />
+            <Q />
+            <R />
+            <S />
+            <T />
+            <U />
+            <V />
+            <W />
+            <X />
+            <Z />
+          </div>
+        )}
+      </div>
+      <Link to="/">
+        <img
+          className="Home_Button"
+          src={`${URL}/public/assets/images/voiture.png`}
+          alt="Logo de voiture pour revenir à la page principale"
+        />
+      </Link>
     </div>
   );
 }
