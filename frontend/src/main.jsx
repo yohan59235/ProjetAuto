@@ -37,6 +37,24 @@ import AustinHealey from "./pages/A/AustinHealey/AustinHealey";
 import Autobianchi from "./pages/A/Autobianchi/Autobianchi";
 import AutoUnion from "./pages/A/AutoUnion/AutoUnion";
 import Auverland from "./pages/A/Auverland/Auverland";
+import Bentley from "./pages/B/Bentley/Bentley";
+import Berliet from "./pages/B/Berliet/Berliet";
+import Bertone from "./pages/B/Bertone/Bertone";
+import Bitter from "./pages/B/Bitter/Bitter";
+import Bizzarrini from "./pages/B/Bizzarrini/Bizzarrini";
+import BMW from "./pages/B/BMW/BMW";
+import Booxt from "./pages/B/Booxt/Booxt";
+import Borgward from "./pages/B/Borgward/Borgward";
+import Bowler from "./pages/B/Bowler/Bowler";
+import Brabus from "./pages/B/Brabus/Brabus";
+import Bremach from "./pages/B/Bremach/Bremach";
+import Brillance from "./pages/B/Brillance/Brillance";
+import Bristol from "./pages/B/Bristol/Bristol";
+import BrookeCars from "./pages/B/BrookeCars/BrookeCars";
+import Bugatti from "./pages/B/Bugatti/Bugatti";
+import Buick from "./pages/B/Buick/Buick";
+import Byd from "./pages/B/Byd/Byd";
+import Bongarini from "./pages/B/Bongarini/Bongarini";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +92,24 @@ const router = createBrowserRouter([
       { path: "/Autobianchi", element: <Autobianchi /> },
       { path: "/AutoUnion", element: <AutoUnion /> },
       { path: "/Auverland", element: <Auverland /> },
+      { path: "/Bentley", element: <Bentley /> },
+      { path: "/Berliet", element: <Berliet /> },
+      { path: "/Bertone", element: <Bertone /> },
+      { path: "/Bitter", element: <Bitter /> },
+      { path: "/Bizzarrini", element: <Bizzarrini /> },
+      { path: "/BMW", element: <BMW /> },
+      { path: "/Bongarini", element: <Bongarini /> },
+      { path: "/Booxt", element: <Booxt /> },
+      { path: "/Borgward", element: <Borgward /> },
+      { path: "/Bowler", element: <Bowler /> },
+      { path: "/Brabus", element: <Brabus /> },
+      { path: "/Bremach", element: <Bremach /> },
+      { path: "/Brillance", element: <Brillance /> },
+      { path: "/Bristol", element: <Bristol /> },
+      { path: "/BrookeCars", element: <BrookeCars /> },
+      { path: "/Bugatti", element: <Bugatti /> },
+      { path: "/Buick", element: <Buick /> },
+      { path: "/Byd", element: <Byd /> },
     ],
   },
 ]);
